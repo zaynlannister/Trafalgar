@@ -1,0 +1,426 @@
+body {
+	font-family: Mulish;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*  GLOBAL CHANGES  */
+
+.container {
+	width: 1120px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.button-usual {
+	color: #fff;
+	border: 1px solid #458FF6;
+	background-color: #458FF6;
+	padding: 10px 25px;
+	border-radius: 55px;
+}
+
+.second , .illustation {
+	display: inline-block;
+}
+
+/*  FIRST PART  */
+
+.header-img {
+	width: 100px;
+}
+
+.header-logo , .header-nav {
+	display: inline-block;
+}
+
+.header-nav {
+	width: 955px;
+	text-align: right;
+}
+
+.header-logo {
+	position: relative;
+	top: 15px;
+}
+
+.header-nav a {
+	color: #7D7987;
+	margin-right: 30px;
+}
+
+.header-nav a:first-child {
+	color: #1F1534;
+	font-weight: bold;
+}
+
+.header-nav a:last-child {
+	margin-right: 0px;
+}
+
+
+
+/*     Second Part     */
+
+
+
+.second {
+	margin-top: 150px;
+}
+
+.second-text {
+	width: 350px;
+}
+
+.button {
+	margin-top: 45px;
+}
+
+.image-illustration { 
+	width: 500px;
+	position: absolute;
+	top: 84px;
+	right: 0px;
+}
+
+	/*	THIRD PART 	*/
+
+.our-services {
+	margin-top: 200px;
+}
+
+.service-illustration {
+	position: absolute;
+	background-image: url(img/bgelement.png);
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	width: 1118.54px;
+	height: 967.94px;
+}
+
+.service-head {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.services-bottom {
+	width: 60px;
+	border-bottom: 3px solid #000;
+	margin: 30px auto;
+	border-radius: 5px;
+}
+
+.services-text {
+	text-align: center;
+}
+
+.services-text p {
+	color: #7D7987;
+	width: 860px;
+	margin: 0px auto;
+}
+
+	/*ФОТО И ТЕКСТ*/
+
+.serv-image {
+	width: 70px;
+	height: 80px;
+}
+
+.serv-first , .serv-fifth {
+	width: 80px;
+}
+
+.serv-second , .serv-third , .serv-forth , .serv-sixth {
+	width: 60px;
+}
+
+.services {
+	margin-top: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.serv {
+	box-shadow: 0px 28px 50px -55px rgba(0,0,0,0.66);
+	border-radius: 20px;
+	padding: 50px 30px;
+	height: 210px;
+	width: 250px;
+	background-color: #fff;
+	margin: 10px;
+}
+
+.btn {
+	margin: 50px auto;
+	width: 200px;
+}
+
+.button-unusual {
+	padding: 10px 45px;
+	background-color: #fff;
+	color: #458FF6;
+	border-radius: 55px;
+	border: 1px solid #458FF6;
+}
+
+	/*ФОН 3 ЧАСТИ*/
+
+.tracking {
+	position: relative;
+}
+
+.service-illustration {
+	position: absolute;
+	background-image: url(img/bgelement.png);
+	background-repeat: no-repeat;
+	background-size: 900px;
+	width: 1118.54px;
+	height: 967.94px;
+}
+
+.service-illustration-sec {
+	z-index: -1;
+	position: absolute;
+	background-image: url(img/element.png);
+	background-repeat: no-repeat;
+	width: 131.58px;
+	height: 115px;
+	top: -50px;
+	left: 235px;
+}
+
+		/*FORTH PART*/
+
+.health-care , .health-care-sec {
+	display: flex;
+}
+
+.health-care {
+	margin-bottom: 100px;
+}
+
+.forthPart {
+	margin: 150px 0px;
+}
+
+.forthPart img {
+	width: 550px;
+	height: 450px; 
+}
+
+.forthPart img:nth-child(2) {
+	height: 350px;
+}
+
+.forthPart p {
+	color: #7D7987;
+	line-height: 27px;
+}
+
+.health-first h2 {
+	width: 250px;
+}
+
+.health-second h2 {
+	width: 200px;
+}
+
+.health-line {
+	border-bottom: 3px solid #000;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.health-img {
+	position: absolute;
+	right: 0px;
+	height: 300px;
+}
+
+.health-text {
+	width: 400px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.health-action {
+	margin-top: 50px;
+}
+
+.health-care-sec {
+	position: relative;
+}
+
+.health-illustration {
+	position: absolute;
+	background-image: url(img/tochki.png);
+	background-repeat: no-repeat;
+	width: 131.58px;
+	height: 115px;
+	top: -120px; 
+	right: 0px;
+}
+
+.review {
+	width: 900px;
+	background-color: #5B9BF3;
+	margin: 0px auto;
+	padding: 45px 40px 45px 75px;
+	border-radius: 24px;
+	color: #fff;
+}
+
+.review-head {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.review-title {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.review-line {
+	border-bottom: 3px solid #fff;
+	width: 60px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+.review-content {
+	display: flex;
+	align-items: center;
+}
+
+.review-auhor__image {
+	background-image: url(img/Groupf.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 120px;
+	height: 150px;
+
+	margin-top: 20px;
+}
+
+.review-author__meta {
+	width: 264px;
+	margin-left: 30px;
+}
+
+.review-text {
+	width: 300px;
+	margin-left: 100px;
+	line-height: 24px;
+	opacity: .7;
+}
+
+.review-author__name {
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.review-author__company {
+	opacity: .7;
+}
+
+.review-img {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+/* Last Part */
+
+.last {
+	margin-top: 150px;
+	padding: 80px 0px;
+	color: #fff;
+}
+
+.last p {
+	opacity: .7;
+}
+
+.last, .last-info__second {
+	display: flex;
+	justify-content: space-between;
+}
+
+.last-background {
+	background: rgb(103,195,243);
+	background: linear-gradient(189deg, rgba(103,195,243,1) 0%, rgba(80,141,230,1) 47%);
+}
+
+.last-trafalgar span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #67C3F3;
+
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.last-trafalgar {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 23px;
+}
+
+.last-info {
+	width: 400px;
+	margin-right: ;
+}
+
+.last-info p {
+	line-height: 30px;
+	letter-spacing: 1.1px;
+}
+
+.last-info__second {
+	width: 600px;
+	margin-top: 15px;
+}
+
+.last-name {
+	font-size: 20px;
+	margin-bottom: 30px;
+
+}
+
+/*LAST IMAGES*/
+
+.last-background {
+	position: relative;
+}
+
+.last-image__first {
+	position: absolute;
+	background-image: url(img/lastheh.png);
+	background-repeat: no-repeat;
+	background-size: 130px;
+	width: 130px;
+	height: 115px;
+	bottom: 0px;
+}
+
+.last-image__second {
+	position: absolute;
+	background-image: url(img/last.png);
+	background-repeat: no-repeat;
+	background-size: 120px;
+	width: 120px;
+	height: 110px;
+	right: 0px;
+	top: -40px;
+}
